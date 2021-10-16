@@ -111,6 +111,7 @@
       <excludeFolder url="file://$MODULE_DIR$/gate/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/gate/vendor/symfony/translation" />
       <excludeFolder url="file://$MODULE_DIR$/gate/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/gate/vendor/laravel/ui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

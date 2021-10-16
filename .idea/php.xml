@@ -107,6 +107,7 @@
       <path value="$PROJECT_DIR$/gate/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/gate/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/gate/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/gate/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
