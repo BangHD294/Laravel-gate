@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 
 class HomeController extends Controller
 {
@@ -27,6 +28,11 @@ class HomeController extends Controller
     }
     public function admin()
     {
-        return view('admin');
+        if (Gate::allows('is-admin')) {
+            return view('admin');
+        }else{
+            abort(403);
+
+        }
     }
 }

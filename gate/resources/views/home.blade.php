@@ -15,7 +15,10 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+{{-- neu is-admin == true thi moi duoc phep truy cap--}}
+                        @can('is-admin')
                         <a href="{{route('admin')}}">Admin</a>
+                        @endcan
                 </div>
             </div>
         </div>
