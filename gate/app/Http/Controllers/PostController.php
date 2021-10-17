@@ -15,6 +15,11 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        return view('show', compact('post'));
+        if (auth()->user()->can('view', $post)) {
+            return view('show', compact('post'));
+
+        }else{
+            abort(403);
+        }
     }
 }

@@ -14,4 +14,7 @@ b4.  public function boot()
     }
 #phan quyen policy
 
+Creating Policies
+Generating Policies
 
+b1 php artisan make:policy PostPolicy
